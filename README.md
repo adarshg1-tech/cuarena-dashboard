@@ -19,7 +19,7 @@ built-in mock data (default) or your Google Apps Script endpoint that reads
 the per-pod sheets.
 
 > **Connecting your real Google Sheets:** read
-> [INGESTION_GUIDE.md](INGESTION_GUIDE.md) — it's the ELI5 explainer your
+> [INGESTION_GUIDE.md](INGESTION_GUIDE.md) — it's the ELI5 explainer the
 > team can follow, including a copy-pasteable Apps Script tailored to the
 > CU Arena multi-pod sheet structure.
 
@@ -49,8 +49,7 @@ npm run preview       # serves the production build locally
 
 ## Wiring live data (Google Sheets via Apps Script)
 
-> **📖 Full walkthrough:** [INGESTION_GUIDE.md](INGESTION_GUIDE.md) — written
-> for non-engineers, includes the full production Apps Script that handles
+> **📖 Full walkthrough:** [INGESTION_GUIDE.md](INGESTION_GUIDE.md) — includes the full production Apps Script that handles
 > all 11 pod sheets and tags rows with squad / pod automatically.
 
 The dashboard fetches **one JSON payload** from a single URL. The easiest way
@@ -159,15 +158,6 @@ git push -u origin main
 
 ---
 
-## Free hosting (optional, ~5 min)
-
-Once pushed:
-
-- **Vercel** — `vercel.com/new` → import the repo → click Deploy. Add
-  `VITE_APPS_SCRIPT_URL` as an Environment Variable.
-- **Netlify** — same flow at `app.netlify.com/start`.
-
-Both detect Vite automatically. Done.
 
 ---
 
