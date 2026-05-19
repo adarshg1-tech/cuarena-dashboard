@@ -141,20 +141,6 @@ Mirror the keys in [`src/lib/mockData.js`](src/lib/mockData.js). Suggested layou
 
 ---
 
-## Push to GitHub
-
-From inside `cuarena-dashboard/`:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: CU Arena dashboard"
-
-# Then on github.com create a new empty repo (e.g. cuarena-dashboard)
-git branch -M main
-git remote add origin https://github.com/<your-user-or-org>/cuarena-dashboard.git
-git push -u origin main
-```
 
 ---
 
